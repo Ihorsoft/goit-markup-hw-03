@@ -234,7 +234,7 @@ position: absolute;
 
 .name-txt {
     display: block;
-    padding: 32px 16px;
+    padding: 32px 0;
     border: 1px solid #e7e9fc;
 
 }
@@ -306,7 +306,10 @@ position: absolute;
 }
 
 .portfolio-border {
-        border: 0 1px 1px 1px solid #E7E9FC; 
+            display: block;
+            padding: 32px 16;
+            border: 1px solid #e7e9fc;
+     /*   border: 0 1px 1px 1px solid #E7E9FC; */
 }
 
 .portfolio-subtitle {
