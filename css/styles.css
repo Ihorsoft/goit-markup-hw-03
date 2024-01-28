@@ -33,9 +33,13 @@ img {
     margin: 0 auto;
 }
 
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
 .header-container {
     display: flex;
-    border-bottom: 1px solid #E7E9FC;
+  /*  border-bottom: 1px solid #E7E9FC; */
     align-items: center;
 }
 
@@ -65,7 +69,7 @@ img {
 .nav-menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+   /* padding: 24px 0; */
 }
 
 .nav-link {
@@ -74,6 +78,8 @@ img {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0;
+        display: block;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -161,6 +167,18 @@ img {
 .visually-hidden {
     visibility: hidden;
   /*  display: none; */
+
+/* position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden; */
+    overflow: hidden;
 }
 
 .service-list {
