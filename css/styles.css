@@ -168,7 +168,7 @@ img {
     visibility: hidden;
   /*  display: none; */
 
-/* position: absolute;
+position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -177,8 +177,7 @@ img {
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden; */
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 .service-list {
@@ -235,7 +234,8 @@ img {
 
 .name-txt {
     display: block;
-    padding: 32px 0;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 
 }
 
