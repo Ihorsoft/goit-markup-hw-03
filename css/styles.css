@@ -32,6 +32,7 @@ img {
     width: 1158px;
     margin: 0 auto;
 }
+/*============== header ==================*/
 
 .header {
     border-bottom: 1px solid #E7E9FC;
@@ -47,8 +48,8 @@ img {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    margin-right: 332px;
-    justify-content: space-between;
+   /* margin-right: 332px; */
+  /*  justify-content: space-between; */
 }
 
 .logo {
@@ -116,6 +117,8 @@ img {
 .section {
     padding: 120px 0;
 }
+
+/*==============================*/
 
 /*================== hero ==============*/
 .hero {
@@ -243,6 +246,7 @@ position: absolute;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     text-align: center;
+    width: calc((100% - 72px) / 4);
 }
 
 .team-img {}
@@ -296,12 +300,13 @@ position: absolute;
 }
 
 .portfolio-item {
-    padding-bottom: 32px;
+   /* padding-bottom: 32px; from mentor */
  /* border: 1px solid #E7E9FC; */
+ width: calc((100% - 48px) / 3);   /* from mentor*/
 }
   
 .portfolio-img {
-        margin-bottom: 32px;
+      /*  margin-bottom: 32px; from mentor */
 
 }
 
